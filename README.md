@@ -45,8 +45,8 @@ df.head()
 
 ```
 how to write a loop initialize and increment the loop
-
 ```
+
 ```
 University = "FloridaState"
 count = 0            # initialize the loop 
@@ -54,6 +54,5 @@ for character in University:
     count = count + len(character) # increment the loop
 print(count)
 #len(University)
-
 ```
 
