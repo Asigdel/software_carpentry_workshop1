@@ -46,7 +46,6 @@ df.head()
 ```
 how to write a loop initialize and increment the loop
 ```
-
 ```
 University = "FloridaState"
 count = 0            # initialize the loop 
