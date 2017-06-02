@@ -55,3 +55,20 @@ print(count)
 #len(University)
 ```
 
+```
+InFileName = ("R:/Python_files/Phenotype.1.files/raw.file.txt")
+
+Infile = open(InFileName,"r")
+i = 0
+for line in Infile.readlines():
+    try:
+        if "Getting pedigree" in line:
+            pass
+        else:
+            print(i, ':', line.split()[0])
+        i+=1
+        if i>35:
+            assert(False)
+    except:
+        pass
+```
