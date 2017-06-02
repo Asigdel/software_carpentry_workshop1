@@ -56,6 +56,10 @@ print(count)
 ```
 
 ```
+How to print first element of a list in python
+```
+
+```
 InFileName = ("R:/Python_files/Phenotype.1.files/raw.file.txt")
 
 Infile = open(InFileName,"r")
